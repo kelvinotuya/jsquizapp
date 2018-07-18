@@ -25,6 +25,7 @@ function submitAnswers() {
 	for (i = 1; i <= total; i++) {
 	if (eval('q'+i) == answers[i-1]) {
 		score++;
+		}
 	}
 
 	// //Display results
@@ -34,5 +35,5 @@ function submitAnswers() {
 	alert('You scored ' + score + ' out of ' + total);
 
 	return false;
-    }
+  
 }
